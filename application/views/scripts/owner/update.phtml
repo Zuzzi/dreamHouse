@@ -1,0 +1,49 @@
+
+<div id = "main">
+    <div class="container">
+
+        
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+					
+					<h6 class='intro-text text-center'>Update House Form</h6>
+                    <hr>
+					
+					
+					<center>
+					
+                    <?php 
+              	
+						echo $this->updateForm;
+						
+
+						
+				 ?>
+				 
+				 <br><br><br>
+				 
+				 <table>
+				 
+				 <tr><th class = "headerPicture">Picture 1</th><th class = "headerPicture">Picture 2</th><th class = "headerPicture">Picture 3</th></tr>
+				 <tr><td class = "pictureForUpdate"><img src = '<?php  echo $this->baseUrl('img/'.$this->picture1);?> ' width = 200px height = 100px></td><td class = "pictureForUpdate" ><img src = '<?php  echo $this->baseUrl('img/'.$this->picture2);?> ' width = 200px height = 100px></td><td class = "pictureForUpdate" ><img src = '<?php  echo $this->baseUrl('img/'.$this->picture3);?> ' width = 200px height = 100px></td></tr>
+				 
+				 
+				 </table>
+				 
+				 
+				 </center>
+				 
+                    
+                   </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+
+</div>
